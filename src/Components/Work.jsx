@@ -1,9 +1,10 @@
 import React from 'react'
-import SkillUpCropped from '../assets/croppedskillup.png'
-import RentABuddy from '../assets/rentabuddy.jpeg'
-import FlipProject from '../assets/flipproject.jpeg'
+// import SkillUpCropped from '../assets/croppedskillup.png'
+// import RentABuddy from '../assets/rentabuddy.jpeg'
+// import FlipProject from '../assets/flipproject.jpeg'
 import EyeforDetail from '../assets/eyefordetail.png'
 import SkillUp from '../assets/SkillUp.png'
+import BBB from '../assets/BBBscreenshot.png'
 
 const Work = () => {
   return (
@@ -23,9 +24,12 @@ const Work = () => {
           >
             {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100 text-center'>
-              <span className='text-2xl font-bold text-white tracking-wider'>
+              <div className='text-xl font-bold text-white tracking-wider'>
+                Le Wagon Final Project
+              </div>
+              <div className='text-lg font-bold text-white tracking-wider'>
                 Ruby on Rails
-              </span>
+              </div>
               <div className='pt-8 text-center'>
                 <a target='_' rel='noopener noreferrer' href='http://www.skill-up.xyz/'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
@@ -41,16 +45,45 @@ const Work = () => {
             </div>
           </div>
           <div
+            style={{ backgroundImage: `url(${BBB})` }}
+            className='shadow-lg shadow-[#0a192f] group container rounded-md flex justify-center items-center mx-auto content-div content-BBB'
+          >
+            {/* Hover Effects */}
+            <div className='opacity-0 group-hover:opacity-100 text-center'>
+            <div className='text-xl font-bold text-white tracking-wider'>
+                Berlin's Best Bars Project
+              </div>
+              <div className='text-lg font-bold text-white tracking-wider'>
+                React Single Page Application
+              </div>
+              <div className='pt-8 text-center'>
+              <a target='_' rel='noopener noreferrer' href='https://berlin-best-bars.herokuapp.com/'>
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                    Demo
+                  </button>
+                </a>
+                <a target='_blank' rel='noopener noreferrer' href='https://github.com/lizzie102938/Berlin-Best-Bars'>
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                    Code
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
             style={{ backgroundImage: `url(${EyeforDetail})` }}
             className='shadow-lg shadow-[#0a192f] group container rounded-md flex justify-center items-center mx-auto content-div content-eyefordetail'
           >
             {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100 text-center'>
-              <span className='text-2xl font-bold text-white tracking-wider'>
-                React JS
-              </span>
-              <div className='text-lg font-bold text-white'>
-                (Project in progress)
+              <div className='text-xl font-bold text-white tracking-wider'>
+                Eye For Detail (in progress)
+              </div>
+              <div className='text-xl font-bold text-white tracking-wider'>
+                Company Project
+              </div>
+              <div className='text-lg font-bold text-white tracking-wider'>
+                React JS Application
               </div>
               <div className='pt-8 text-center'>
                 {/* <a href='/'>
@@ -67,29 +100,7 @@ const Work = () => {
             </div>
           </div>
             {/* Grid Item */}
-          <div
-            style={{ backgroundImage: `url(${FlipProject})` }}
-            className='shadow-lg shadow-[#0a192f] group container rounded-md flex justify-center items-center mx-auto content-div'
-          >
-            {/* Hover Effects */}
-            <div className='opacity-0 group-hover:opacity-100 text-center'>
-              <span className='text-2xl font-bold text-white tracking-wider'>
-                React JS Single Page Application
-              </span>
-              <div className='pt-8 text-center'>
-                {/* <a href='/'>
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                    Demo
-                  </button>
-                </a> */}
-                <a href='/'>
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                    Code
-                  </button>
-                </a>
-              </div>
-            </div>
-          </div>
+
           {/* <div
             style={{ backgroundImage: `url(${RentABuddy})` }}
             className='shadow-lg shadow-[#0a192f] group container rounded-md flex justify-center items-center mx-auto content-div'

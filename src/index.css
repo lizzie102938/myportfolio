@@ -26,6 +26,13 @@
   background-position: center;
 }
 
+.content-BBB {
+  background-repeat: no-repeat;
+  background-size: 320px 200px;
+  background-position: center;
+}
+
+
 .content-div {
   height: 200px;
 }
