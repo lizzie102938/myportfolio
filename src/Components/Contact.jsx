@@ -16,7 +16,7 @@ const Contact = () => {
         </form>
       </div>
       <div className='flex-col bg-[#0a192f] pb-20'>
-      <p className='text-xl text-white text-center'>I made this page using React and Tailwind CSS. See code <a className='inline border-b-2 color-white' href='https://github.com/lizzie102938/portfolio-lizzie' target='_' rel='noopener noreferrer'>here</a></p>
+      <p className='text-xl text-white text-center'>I made this page using React and Tailwind CSS. See code <a className='inline border-b-2 color-white' href='https://github.com/lizzie102938/myportfolio' target='_' rel='noopener noreferrer'>here</a></p>
       </div>
     </div>
   )
