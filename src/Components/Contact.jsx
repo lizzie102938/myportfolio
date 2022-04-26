@@ -15,9 +15,6 @@ const Contact = () => {
           <button className='text-white border-2 hover:bg-pink-600 hover:border-pink-600 px-4 py-3 my-8 mx-auto flex items-center'>Message me</button>
         </form>
       </div>
-      <div className='flex-col bg-[#0a192f] pb-20'>
-      <p className='text-xl text-white text-center'>I made this page using React and Tailwind CSS. See code <a className='inline border-b-2 color-white' href='https://github.com/lizzie102938/myportfolio' target='_' rel='noopener noreferrer'>here</a></p>
-      </div>
     </div>
   )
 }
