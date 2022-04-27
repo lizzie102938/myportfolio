@@ -19,7 +19,7 @@ const About = () => {
             <div>
               <p>Before entering the World of tech, I worked in sales and marketing for global spirits companies. I learned to code because I found it exciting gaining new skills which could be so useful in modern society. I hope to combine my prior business experience with these new coding skills. I enjoy working in teams of interesting people and love how the developer community is so collaborative and helpful.</p>
               <br></br>
-              <p>Access my LinkedIn, Github, Email and CV from the buttons on the left.</p>
+              <p>Access my LinkedIn, Github, Email and CV from the links on this site.</p>
             </div>
         </div>
       </div>

@@ -14,7 +14,7 @@ const Navbar = () => {
   return (
     <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300'>
       <div>
-        <img src={Photo} alt="Lizzie" className='rounded-full absolute left-7 top-8' style={{width: '100px'}}/>
+        <img src={Photo} alt="Lizzie" className='rounded-full absolute left-7 top-6' style={{width: '100px'}}/>
       </div>
 
       {/*menu*/}
@@ -64,7 +64,27 @@ const Navbar = () => {
         <li className='py-6 text-4xl'><Link onClick={handleClick} to="contact" smooth={true} duration={500}>
           Contact
         </Link></li>
-      </ul>
+
+          <li className='w-[160px] h-[60px] flex justify-between items-center hover:ml-[-10px] duration-300 bg-[#8892B0]'>
+            <a className='flex justify-between items-center w-full text-gray-300'href="https://www.linkedin.com/in/lizzielerwill/" target='_' rel='noopener noreferrer'>
+              LinkedIn <FaLinkedin size={30}/>
+            </a>
+          </li>
+          <li className='w-[160px] h-[60px] flex justify-between items-center hover:ml-[-10px] duration-300 bg-[#333333]'>
+            <a className='flex justify-between items-center w-full text-gray-300'href="https://github.com/lizzie102938" target='_' rel='noopener noreferrer'>
+              Github <FaGithub size={30}/>
+            </a>
+          </li>
+          <li className='w-[160px] h-[60px] flex justify-between items-center hover:ml-[-10px] duration-300 bg-[#d3877e]'>
+            <Link className='flex justify-between items-center w-full text-gray-300' to="contact" smooth={true} duration={500}>
+              Email <HiOutlineMail size={30}/></Link>
+          </li>
+          <li className='w-[160px] h-[60px] flex justify-between items-center hover:ml-[-10px] duration-300 bg-[#565f69]'>
+            <a className='flex justify-between items-center w-full text-gray-300' href={CV} target='_' rel='noopener noreferrer'>
+              CV <BsFillPersonLinesFill size={30}/>
+            </a>
+          </li>
+        </ul>
 
   {/*social icons*/}
     <div className='hidden lg:flex fixed flex-column top-[35%] left-0'>
@@ -79,7 +99,7 @@ const Navbar = () => {
             Github <FaGithub size={30}/>
           </a>
         </li>
-        <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#f9b4ab]'>
+        <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#d3877e]'>
           <Link className='flex justify-between items-center w-full text-gray-300' to="contact" smooth={true} duration={500}>
             Email <HiOutlineMail size={30}/></Link>
         </li>
