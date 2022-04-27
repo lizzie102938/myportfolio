@@ -16,7 +16,7 @@
 
 .content-skillup {
   background-repeat: no-repeat;
-  background-size: 310px 200px;
+  background-size: 320px 200px;
   background-position: center;
 }
 
@@ -28,6 +28,7 @@
 
 .content-BBB {
   background-repeat: no-repeat;
+  background: cover;
   background-size: 320px 200px;
   background-position: center;
 }
@@ -40,6 +41,7 @@
 
 .content-div {
   height: 200px;
+  width: 320px
 }
 
 .content-div:hover {
