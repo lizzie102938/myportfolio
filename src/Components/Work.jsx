@@ -44,6 +44,9 @@ const Work = () => {
               </div>
             </div>
           </div>
+          <div className='shadow-lg shadow-[#0a192f] group container rounded-md flex justify-center items-center mx-auto content-div content-skillup'>
+            <iframe className='shadow-lg shadow-[#0a192f] group container rounded-md flex justify-center items-center mx-auto content-div content-skillup' width="350" height="200" src="https://www.youtube.com/embed/2uIrUrGG89c?start=1104" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
           <div
             style={{ backgroundImage: `url(${BBB})` }}
             className='shadow-lg shadow-[#0a192f] group container rounded-md flex justify-center items-center mx-auto content-div content-BBB'
