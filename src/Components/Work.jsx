@@ -1,6 +1,6 @@
 import React from 'react'
 // import SkillUpCropped from '../assets/croppedskillup.png'
-// import RentABuddy from '../assets/rentabuddy.jpeg'
+import RentABuddy from '../assets/RentABuddy.png'
 // import FlipProject from '../assets/flipproject.jpeg'
 import EyeforDetail from '../assets/eyefordetail.png'
 import SkillUp from '../assets/SkillUp.png'
@@ -104,29 +104,27 @@ const Work = () => {
           </div>
             {/* Grid Item */}
 
-          {/* <div
+          <div
             style={{ backgroundImage: `url(${RentABuddy})` }}
-            className='shadow-lg shadow-[#0a192f] group container rounded-md flex justify-center items-center mx-auto content-div'
+            className='shadow-lg shadow-[#0a192f] group container rounded-md flex justify-center items-center mx-auto content-div content-rentabuddy'
           >
             {/* Hover Effects */}
-            {/* <div className='opacity-0 group-hover:opacity-100 text-center'>
+            <div className='opacity-0 group-hover:opacity-100 text-center'>
               <span className='text-2xl font-bold text-white tracking-wider'>
                 Ruby on Rails
               </span>
-              <div className='pt-8 text-center'> */}
-                {/* <a href='/'>
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                    Demo
-                  </button>
-                </a> */}
-                {/* <a href='/'>
+              <div className='text-xl font-bold text-white tracking-wider'>
+                Le Wagon First Rails project
+              </div>
+              <div className='pt-8 text-center'>
+                <a target='_blank' rel='noopener noreferrer' href='https://github.com/lizzie102938/rent_a_buddy-1'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Code
                   </button>
-                </a> */}
-              {/* </div>
+                </a>
+              </div>
             </div>
-          </div>  */}
+          </div>
         </div>
       </div>
     </div>
