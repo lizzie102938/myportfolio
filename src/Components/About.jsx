@@ -14,10 +14,10 @@ const About = () => {
           </div>
           <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>
             <div className='sm:text-right text-4xl font-bold'>
-              <p>Enjoying learning more and more every day.</p>
+              <p>From sales to coding.</p>
             </div>
             <div>
-              <p>Before entering the World of tech, I worked in sales and marketing for global spirits companies. I learned to code because I found it exciting gaining new skills which could be so useful in modern society. I hope to combine my prior business experience with these new coding skills. I enjoy working in teams of interesting people and love how the developer community is so collaborative and helpful.</p>
+              <p>Before entering the World of Tech, I worked in sales and marketing for global spirits companies, Pernod Ricard and Rémy Cointreau. I learned to code because I wanted a new challenge that felt creative and meaningful. Using my tech skills and prior business experience, I look to create user experiences that shape modern society. I enjoy working in teams of interesting people and love the collaborative nature of the developer community.</p>
               <br></br>
               <p>Access my LinkedIn, Github, Email and CV from the links on this site.</p>
             </div>
