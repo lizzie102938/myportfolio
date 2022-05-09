@@ -6,7 +6,7 @@ A portfolio website built using React JS and Tailwind CSS. I built this project 
 
 www.lizzielerwill.com
 
-![App Screenshot](https://github.com/lizzie102938/myportfolio/issues/1#issue-1230216642)
+![App Screenshot](Screenshot%202022-05-09%20at%2022.13.17.jpg)
 
 ## Available Scripts
 
