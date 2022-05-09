@@ -24,6 +24,9 @@ const Work = () => {
             {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100 text-center'>
               <div className='text-xl font-bold text-white tracking-wider'>
+                SKILL-UP
+              </div>
+              <div className='text-xl font-bold text-white tracking-wider'>
                 Le Wagon Final Project
               </div>
               <div className='text-lg font-bold text-white tracking-wider'>
@@ -59,7 +62,7 @@ const Work = () => {
                 React Single Page Application
               </div>
               <div className='pt-8 text-center'>
-              <a target='_' rel='noopener noreferrer' href='https://berlin-best-bars.herokuapp.com/'>
+                <a target='_' rel='noopener noreferrer' href='https://berlin-best-bars.herokuapp.com/'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Demo
                   </button>
@@ -109,7 +112,10 @@ const Work = () => {
           >
             {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100 text-center'>
-              <span className='text-2xl font-bold text-white tracking-wider'>
+              <div className='text-xl font-bold text-white tracking-wider'>
+                Rent-A-Buddy
+              </div>
+              <span className='text-xl font-bold text-white tracking-wider'>
                 Ruby on Rails
               </span>
               <div className='text-xl font-bold text-white tracking-wider'>
@@ -119,6 +125,11 @@ const Work = () => {
                 <a target='_blank' rel='noopener noreferrer' href='https://github.com/lizzie102938/rent_a_buddy-1'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Code
+                  </button>
+                </a>
+                <a target='_' rel='noopener noreferrer' href='http://rent-a-buddy-site.herokuapp.com/'>
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                    Demo
                   </button>
                 </a>
               </div>
