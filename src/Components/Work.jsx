@@ -20,7 +20,7 @@ const Work = () => {
             style={{ backgroundImage: `url(${inprogress})` }}
             className="content-div content-skillup group container mx-auto flex items-center justify-center rounded-md shadow-lg shadow-[#0a192f]"
           >
-            <div className="text-center opacity-0 group-hover:opacity-100">
+            <div className="p-4 text-center opacity-0 group-hover:opacity-100 sm:p-6">
               <div className="text-lg font-bold tracking-wider text-white">
                 JUST ONE MOMENT
               </div>
@@ -31,15 +31,6 @@ const Work = () => {
                 Next.js, Typescript, Tailwind CSS
               </div>
               <div className="pt-6 text-center">
-                {/* <a
-                  target="_"
-                  rel="noopener noreferrer"
-                  href="http://www.skill-up.xyz/"
-                >
-                  <button className="m-2 rounded-lg bg-white px-4 py-3 text-center text-lg font-bold text-gray-700">
-                    Demo
-                  </button>
-                </a> */}
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
@@ -52,6 +43,7 @@ const Work = () => {
               </div>
             </div>
           </div>
+
           <div
             style={{ backgroundImage: `url(${SkillUp})` }}
             className="content-div content-skillup group container mx-auto flex items-center justify-center rounded-md shadow-lg shadow-[#0a192f]"
@@ -67,7 +59,7 @@ const Work = () => {
                 Ruby on Rails
               </div>
               <div className="pt-6 text-center">
-                <a
+                {/* <a
                   target="_"
                   rel="noopener noreferrer"
                   href="http://www.skill-up.xyz/"
@@ -75,7 +67,7 @@ const Work = () => {
                   <button className="m-2 rounded-lg bg-white px-4 py-3 text-center text-lg font-bold text-gray-700">
                     Demo
                   </button>
-                </a>
+                </a> */}
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
@@ -151,11 +143,15 @@ const Work = () => {
                 React JS Application
               </div>
               <div className="pt-6 text-center">
-                {/* <a href='/'>
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                <a
+                  href="https://eyefordetail.vercel.app"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <button className="m-2 rounded-lg bg-white px-4 py-3 text-center text-lg font-bold text-gray-700">
                     Demo
                   </button>
-                </a> */}
+                </a>
                 <a href="https://github.com/lizzie102938/eyefordetail">
                   <button className="m-2 rounded-lg bg-white px-4 py-3 text-center text-lg font-bold text-gray-700">
                     Code
@@ -189,7 +185,7 @@ const Work = () => {
                     Code
                   </button>
                 </a>
-                <a
+                {/* <a
                   target="_"
                   rel="noopener noreferrer"
                   href="http://rent-a-buddy-site.herokuapp.com/"
@@ -197,7 +193,7 @@ const Work = () => {
                   <button className="m-2 rounded-lg bg-white px-4 py-3 text-center text-lg font-bold text-gray-700">
                     Demo
                   </button>
-                </a>
+                </a> */}
               </div>
             </div>
           </div>

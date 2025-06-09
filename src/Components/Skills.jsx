@@ -56,7 +56,7 @@ const Skills = () => {
           ))}
         </div>
         <p className="py-4">
-          Some lesser experience, experimented with in personal projects:
+          Some lesser experience, but have used in personal projects:
         </p>
         <div className="grid w-full grid-cols-2 gap-4 py-2 text-center sm:grid-cols-6">
           {personalSkillsData.map((skill) => (
