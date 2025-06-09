@@ -136,9 +136,6 @@ const Work = () => {
               <div className="text-lg font-bold tracking-wider text-white">
                 Eye For Detail
               </div>
-              <div className="text-lg font-bold tracking-wider text-white">
-                Practice Project
-              </div>
               <div className="text-md font-bold tracking-wider text-white">
                 React JS Application
               </div>

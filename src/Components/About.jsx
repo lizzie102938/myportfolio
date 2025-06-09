@@ -13,29 +13,23 @@ const About = () => {
         </div>
         <div className="flex flex-col gap-10">
           <div className="flex grid w-full max-w-[1000px] gap-8 px-4 sm:grid-cols-2">
-            <p className="text-4xl">
-              3+ years professional experience in software developmemt working
-              for an Esports Data company.
-            </p>
-            <p>
-              With 3 years of experience in the Esports data industry, I was
-              promoted to mid-level developer.
-            </p>
-          </div>
-
-          <div className="flex grid w-full max-w-[1000px] gap-8 px-4 sm:grid-cols-2">
             <p className="text-4xl">From sales to coding.</p>
             <div>
               <p>
                 Before entering the World of Tech, I worked in sales and
                 marketing for global spirits companies. I learned to code
                 because I wanted a new challenge that felt creative and
-                meaningful. Using my tech skills and prior business experience,
-                I look to create user experiences that shape modern society. I
-                enjoy working in teams of interesting people and love the
-                collaborative nature of the developer community.
+                meaningful.
               </p>
             </div>
+          </div>
+          <div className="flex grid w-full max-w-[1000px] gap-8 px-4 sm:grid-cols-2">
+            <p className="text-4xl">2022 - present: Frontend Developer.</p>
+            <p>
+              3+ years professional experience in software developmemt working
+              for an Esports Data company, enjoying bringing our products to
+              life for internal and external users.
+            </p>
           </div>
         </div>
       </div>
