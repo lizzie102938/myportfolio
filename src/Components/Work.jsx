@@ -111,6 +111,9 @@ const Work = () => {
               <div className="text-lg font-bold tracking-wider text-white">
                 React Single Page Application
               </div>
+              <div className="text-md font-bold tracking-wider text-white">
+                React JS Application
+              </div>
               <div className="pt-6 text-center">
                 <a
                   target="_"
@@ -142,7 +145,7 @@ const Work = () => {
                 Eye For Detail
               </div>
               <div className="text-lg font-bold tracking-wider text-white">
-                Company Project
+                Practice Project
               </div>
               <div className="text-md font-bold tracking-wider text-white">
                 React JS Application
