@@ -13,10 +13,13 @@ const About = () => {
         </div>
         <div className="flex flex-col gap-10">
           <div className="flex grid w-full max-w-[1000px] gap-8 px-4 sm:grid-cols-2">
-            <p className="text-4xl">From junior to mid-level.</p>
+            <p className="text-4xl">
+              3+ years professional experience in software developmemt working
+              for an Esports Data company.
+            </p>
             <p>
-              Starting as a junior, I have 3 years professional experience as a
-              Frontend Developer, working in the Esports Data industry.
+              With 3 years of experience in the Esports data industry, I was
+              promoted to mid-level developer.
             </p>
           </div>
 
