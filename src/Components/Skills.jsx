@@ -1,64 +1,71 @@
 import React from 'react';
-import HTML from '../assets/html.png';
-import CSS from '../assets/CSSicon.png';
-import ES6 from '../assets/es6.jpeg';
-import GITHUB from '../assets/githubicon.png';
-import RUBY from '../assets/rubyicon.png';
-import ROR from '../assets/rails2.png';
-import SASS from '../assets/sassicon.webp';
-import TAILWIND from '../assets/tailwind.png';
-import REACT from '../assets/react.png';
+import {
+  html,
+  css,
+  es6,
+  github,
+  ruby,
+  ror,
+  sass,
+  tailwind,
+  react,
+  typescript,
+  mantine,
+  bootstrap,
+  redux,
+  nextjs,
+  vercel,
+} from '../assets';
+
+import Tile from './Tile';
+
+const professionalSkillsData = [
+  { label: 'REACT', src: react },
+  { label: 'REDUX', src: redux },
+  { label: 'TYPESCRIPT', src: typescript },
+  { label: 'MANTINE', src: mantine },
+  { label: 'BOOTSTRAP', src: bootstrap },
+  { label: 'HTML', src: html },
+  { label: 'CSS', src: css },
+  { label: 'ES6', src: es6 },
+  { label: 'GITHUB', src: github },
+  { label: 'SASS', src: sass },
+];
+
+const personalSkillsData = [
+  { label: 'RUBY', src: ruby },
+  { label: 'RUBY ON RAILS', src: ror },
+  { label: 'TAILWIND', src: tailwind },
+  { label: 'NEXT.JS', src: nextjs },
+  { label: 'VERCEL', src: vercel },
+];
 
 const Skills = () => {
   return (
-    <div name='skills' className='w-full h-screen bg-[#0a192f] text-gray-300'>
-      {/*Container*/}
-      <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
-        <div className='pb-5'>
-          <p className='text-4xl font-bold inline border-b-4 border-[#d3877e]'>Skills</p>
+    <div name="skills" className="h-screen w-full bg-[#0a192f] text-gray-300">
+      <div className="mx-auto flex h-full w-full max-w-[1000px] flex-col justify-center p-4">
+        <div className="pb-5">
+          <p className="inline border-b-4 border-[#d3877e] text-4xl font-bold">
+            Skills
+          </p>
         </div>
-
-        <div className='w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-2'>
-          <div className='shadow-[0_3px_10px_rgb(0,0,0,0.2)] shadow-[#679186] hover:scale-110 duration-500'>
-            <img className='w-20 mx-auto pt-3' src={HTML} alt="HTML icon" />
-            <p>HTML</p>
-          </div>
-          <div className='shadow-[0_3px_10px_rgb(0,0,0,0.2)] shadow-[#679186] hover:scale-110 duration-500'>
-            <img className='w-20 mx-auto pt-3' src={CSS} alt="CSS icon" />
-            <p>CSS</p>
-          </div>
-          <div className='shadow-[0_3px_10px_rgb(0,0,0,0.2)] shadow-[#679186] hover:scale-110 duration-500'>
-            <img className='w-20 mx-auto pt-3' src={ES6} alt="ES6 icon" />
-            <p>ES6</p>
-          </div>
-          <div className='shadow-[0_3px_10px_rgb(0,0,0,0.2)] shadow-[#679186] hover:scale-110 duration-500'>
-            <img className='w-20 mx-auto pt-3' src={REACT} alt="REACT icon" />
-            <p>REACT</p>
-          </div>
-          <div className='shadow-[0_3px_10px_rgb(0,0,0,0.2)] shadow-[#679186] hover:scale-110 duration-500'>
-            <img className='w-20 mx-auto pt-3' src={GITHUB} alt="GITHUB icon" />
-            <p>GITHUB</p>
-          </div>
-          <div className='shadow-[0_3px_10px_rgb(0,0,0,0.2)] shadow-[#679186] hover:scale-110 duration-500'>
-            <img className='w-20 mx-auto pt-3' src={RUBY} alt="RUBY icon" />
-            <p>RUBY</p>
-          </div>
-          <div className='shadow-[0_3px_10px_rgb(0,0,0,0.2)] shadow-[#679186] hover:scale-110 duration-500  content-center'>
-            <img className='w-20 mx-auto pt-3' src={ROR} alt="RUBY ON RAILS icon" />
-            <p>RUBY ON RAILS</p>
-          </div>
-          <div className='shadow-[0_3px_10px_rgb(0,0,0,0.2)] shadow-[#679186] hover:scale-110 duration-500'>
-            <img className='w-20 mx-auto pt-3' src={SASS} alt="SASS icon" />
-            <p>SASS</p>
-          </div>
-          <div className='shadow-[0_3px_10px_rgb(0,0,0,0.2)] shadow-[#679186] hover:scale-110 duration-500'>
-            <img className='w-20 mx-auto pt-3' src={TAILWIND} alt="TAILWIND icon" />
-            <p>TAILWIND</p>
-          </div>
+        <p className="py-4">Used in professional environment:</p>
+        <div className="grid w-full grid-cols-2 gap-4 py-2 text-center sm:grid-cols-6">
+          {professionalSkillsData.map((skill) => (
+            <Tile key={skill.label} label={skill.label} src={skill.src} />
+          ))}
+        </div>
+        <p className="py-4">
+          Some lesser experience, experimented with in personal projects:
+        </p>
+        <div className="grid w-full grid-cols-2 gap-4 py-2 text-center sm:grid-cols-6">
+          {personalSkillsData.map((skill) => (
+            <Tile key={skill.label} label={skill.label} src={skill.src} />
+          ))}
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Skills
+export default Skills;
