@@ -13,7 +13,11 @@ import bootstrap from '../assets/bootstrap.png';
 import redux from '../assets/redux.png';
 import nextjs from '../assets/nextjs.svg';
 import vercel from '../assets/vercel.svg';
-import inprogress from '../assets/inprogress.jpg';
+import map from '../assets/map.jpg';
+import rentABuddy from '../assets/RentABuddy.png';
+import eyeforDetail from '../assets/eyefordetail.png';
+import skillUp from '../assets/SkillUp.png';
+import bbb from '../assets/BBBscreenshot.png';
 
 export {
   html,
@@ -31,5 +35,9 @@ export {
   redux,
   nextjs,
   vercel,
-  inprogress,
+  map,
+  rentABuddy,
+  eyeforDetail,
+  skillUp,
+  bbb,
 };
