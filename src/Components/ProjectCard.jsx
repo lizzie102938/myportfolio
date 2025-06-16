@@ -17,7 +17,7 @@ const ProjectCard = ({ image, title, subtitle, tech, demoUrl, codeUrl }) => {
         <div className="text-md font-bold tracking-wider text-white">
           {tech}
         </div>
-        <div className="pt-6 text-center">
+        <div className="text-center">
           {demoUrl && (
             <a href={demoUrl} target="_blank" rel="noopener noreferrer">
               <button className="m-2 rounded-lg bg-white px-4 py-3 text-center text-lg font-bold text-gray-700">
