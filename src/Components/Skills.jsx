@@ -44,7 +44,7 @@ const Skills = () => {
   return (
     <section
       name="skills"
-      className="min-h-screen w-full bg-[#0a192f] px-6 pt-16 pb-16 text-gray-300 md:min-h-[120vh] md:px-32 md:pt-24 md:pb-12"
+      className="min-h-screen w-full bg-[#0a192f] px-6 pb-16 pt-16 text-gray-300 md:min-h-[120vh] md:px-32 md:pt-24 md:pb-16"
     >
       <div>
         <h2 className="inline border-b-4 border-[#d3877e] text-4xl font-bold">
