@@ -42,29 +42,33 @@ const personalSkillsData = [
 
 const Skills = () => {
   return (
-    <div name="skills" className="h-screen w-full bg-[#0a192f] text-gray-300">
-      <div className="mx-auto flex h-full w-full max-w-[1000px] flex-col justify-center p-4">
-        <div className="pb-5">
-          <p className="inline border-b-4 border-[#d3877e] text-4xl font-bold">
-            Skills
-          </p>
-        </div>
-        <p className="py-4">Used in professional environment:</p>
-        <div className="grid w-full grid-cols-2 gap-4 py-2 text-center sm:grid-cols-6">
-          {professionalSkillsData.map((skill) => (
-            <Tile key={skill.label} label={skill.label} src={skill.src} />
-          ))}
-        </div>
-        <p className="py-4">
-          Some lesser experience, but have used in personal projects:
-        </p>
-        <div className="grid w-full grid-cols-2 gap-4 py-2 text-center sm:grid-cols-6">
-          {personalSkillsData.map((skill) => (
-            <Tile key={skill.label} label={skill.label} src={skill.src} />
-          ))}
-        </div>
+    <section
+      name="skills"
+      className="min-h-screen w-full bg-[#0a192f] px-6 pt-16 pb-16 text-gray-300 md:min-h-[120vh] md:px-32 md:pt-24 md:pb-12"
+    >
+      <div>
+        <h2 className="inline border-b-4 border-[#d3877e] text-4xl font-bold">
+          Skills
+        </h2>
       </div>
-    </div>
+
+      <p className="py-8">Used in professional environment:</p>
+      <div className="grid w-full grid-cols-2 gap-4 text-center sm:grid-cols-4">
+        {professionalSkillsData.map(({ label, src }) => (
+          <Tile key={label} label={label} src={src} />
+        ))}
+      </div>
+
+      <p className="py-8">
+        Some lesser experience, but have used in personal projects or during Le
+        Wagon Fullstack Bootcamp:
+      </p>
+      <div className="grid w-full grid-cols-2 gap-4 text-center sm:grid-cols-4">
+        {personalSkillsData.map(({ label, src }) => (
+          <Tile key={label} label={label} src={src} />
+        ))}
+      </div>
+    </section>
   );
 };
 

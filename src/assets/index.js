@@ -18,6 +18,7 @@ import rentABuddy from '../assets/RentABuddy.png';
 import eyeforDetail from '../assets/eyefordetail.png';
 import skillUp from '../assets/SkillUp.png';
 import bbb from '../assets/BBBscreenshot.png';
+import bbb2 from '../assets/bbb2.png';
 
 export {
   html,
@@ -40,4 +41,5 @@ export {
   eyeforDetail,
   skillUp,
   bbb,
+  bbb2,
 };
