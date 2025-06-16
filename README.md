@@ -6,7 +6,9 @@ A portfolio website built using React JS and Tailwind CSS. I built this project 
 
 www.lizzie-lerwill.com
 
-<img width="1380" alt="Screenshot 2025-06-09 at 18 59 28" src="https://github.com/user-attachments/assets/5253ec0d-b7d0-431c-917a-16feaeb449ba" />
+![App Screenshot](main.png)
+![App Screenshot](work.png)
+![App Screenshot](skills.png)
 
 ## Available Scripts
 
@@ -19,4 +21,3 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
-
