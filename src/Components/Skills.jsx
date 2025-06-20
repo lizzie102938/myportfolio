@@ -33,11 +33,11 @@ const professionalSkillsData = [
 ];
 
 const personalSkillsData = [
-  { label: 'RUBY', src: ruby },
-  { label: 'RUBY ON RAILS', src: ror },
   { label: 'TAILWIND', src: tailwind },
   { label: 'NEXT.JS', src: nextjs },
   { label: 'VERCEL', src: vercel },
+  { label: 'RUBY', src: ruby },
+  { label: 'RUBY ON RAILS', src: ror },
 ];
 
 const Skills = () => {
