@@ -3,7 +3,6 @@ import { FaBars, FaTimes, FaGithub, FaLinkedin } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 import { Link } from 'react-scroll';
-import CV from '../documents/CVnew.pdf';
 import Photo from '../assets/mephoto.jpeg';
 
 const Navbar = () => {
@@ -20,8 +19,6 @@ const Navbar = () => {
           style={{ width: '100px' }}
         />
       </div>
-
-      {/*menu*/}
       <ul className="hidden md:flex">
         <li>
           <Link to="home" smooth={true} duration={500}>
@@ -120,16 +117,15 @@ const Navbar = () => {
         <li className="flex h-[60px] w-[160px] items-center justify-between bg-[#565f69] duration-300 hover:ml-[-10px]">
           <a
             className="flex w-full items-center justify-between text-gray-300"
-            href={CV}
-            target="_"
+            href="/CVnew.pdf"
+            target="_blank"
             rel="noopener noreferrer"
           >
-            CV <BsFillPersonLinesFill size={30} />
+            Download CV <BsFillPersonLinesFill size={30} />
           </a>
         </li>
       </ul>
 
-      {/*social icons*/}
       <div className="flex-column fixed top-[35%] left-0 hidden lg:flex">
         <ul>
           <li className="ml-[-100px] flex h-[60px] w-[160px] items-center justify-between bg-[#8892B0] duration-300 hover:ml-[-10px]">
@@ -165,7 +161,7 @@ const Navbar = () => {
           <li className="ml-[-100px] flex h-[60px] w-[160px] items-center justify-between bg-[#565f69] duration-300 hover:ml-[-10px]">
             <a
               className="flex w-full items-center justify-between text-gray-300"
-              href={CV}
+              href="/CVnew.pdf"
               target="_"
               rel="noopener noreferrer"
             >
