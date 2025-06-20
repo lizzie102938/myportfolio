@@ -52,17 +52,14 @@ const Skills = () => {
         </h2>
       </div>
 
-      <p className="py-8">Used in professional environment:</p>
+      <p className="py-8">Technologies used daily at work:</p>
       <div className="grid w-full grid-cols-2 gap-4 text-center sm:grid-cols-4">
         {professionalSkillsData.map(({ label, src }) => (
           <Tile key={label} label={label} src={src} />
         ))}
       </div>
 
-      <p className="py-8">
-        Some lesser experience, but have used in personal projects or during Le
-        Wagon Fullstack Bootcamp:
-      </p>
+      <p className="py-8">Technologies I have used in personal projects:</p>
       <div className="grid w-full grid-cols-2 gap-4 text-center sm:grid-cols-4">
         {personalSkillsData.map(({ label, src }) => (
           <Tile key={label} label={label} src={src} />
