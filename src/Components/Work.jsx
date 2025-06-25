@@ -1,5 +1,12 @@
 import React from 'react';
-import { map, rentABuddy, eyeforDetail, skillUp, bbb, bbb2 } from '../assets';
+import {
+  oneMoment,
+  rentABuddy,
+  eyeforDetail,
+  skillUp,
+  bbb,
+  bbb2,
+} from '../assets';
 import ProjectCard from './ProjectCard';
 
 const Work = () => {
@@ -20,19 +27,19 @@ const Work = () => {
 
         <div className="grid gap-4 sm:grid-cols-2 md:grid-cols-3">
           <ProjectCard
+            image={oneMoment}
+            title="Just A Moment 2025"
+            subtitle="Interactive map using Unsplash API"
+            tech="Next.js, Typescript, CSS modules, Unsplash API, Vercel"
+            codeUrl="https://github.com/lizzie102938/just-a-moment"
+          />
+          <ProjectCard
             image={bbb2}
             title="Berlin's Best Bars V.2 2025"
             subtitle="SPA with Node.JS Backend"
             tech="React, Typescript, CSS, Node.JS, Vercel"
             demoUrl="https://berlin-best-bars-v2.vercel.app/"
             codeUrl="https://github.com/lizzie102938/Berlin-Best-Bars-v2"
-          />
-          <ProjectCard
-            image={map}
-            title="Just A Moment 2025"
-            subtitle="Interactive map using Unsplash API"
-            tech="Next.js, Typescript, Tailwind CSS"
-            codeUrl="https://github.com/lizzie102938/just-a-moment"
           />
           <ProjectCard
             image={skillUp}
