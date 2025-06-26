@@ -30,7 +30,7 @@ const Work = () => {
             image={oneMoment}
             title="Just A Moment 2025"
             subtitle="Interactive map using Unsplash API"
-            tech="Next.js, Typescript, CSS modules, Unsplash API, Vercel"
+            tech="Next.js, Typescript, CSS modules, Mantine UI, Unsplash API, Vercel"
             codeUrl="https://github.com/lizzie102938/just-a-moment"
           />
           <ProjectCard
