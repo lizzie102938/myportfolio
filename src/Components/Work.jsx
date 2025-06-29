@@ -29,55 +29,56 @@ const Work = () => {
           <ProjectCard
             image={discoveryPanel}
             title="The Discovery Panel 2025"
-            subtitle="Interactive map using multiple APIs"
-            tech="Next.js, Typescript, CSS modules, Mantine UI, Unsplash API, Vercel"
+            subtitle="Full-Stack project. Interactive map using multiple APIs."
+            tech="Next.js, PostgreSQL, Typescript, CSS modules, Mantine UI, Unsplash API, Vercel."
             codeUrl="https://github.com/lizzie102938/the-discovery-panel"
           />
           <ProjectCard
             image={bbb2}
             title="Berlin's Best Bars V.2 2025"
-            subtitle="Simple SPA with Node.JS Backend"
-            tech="React, Typescript, CSS, Node.JS, Vercel"
+            subtitle="Revamp of old SPA project."
+            tech="React, Typescript, CSS, Node.JS, Vercel, Foursquare API."
             demoUrl="https://berlin-best-bars-v2.vercel.app/"
             codeUrl="https://github.com/lizzie102938/Berlin-Best-Bars-v2"
-          />
-          <ProjectCard
-            image={skillUp}
-            title="SKILL-UP 2022"
-            subtitle="Le Wagon Final Project"
-            tech="Ruby on Rails, JS, CSS"
-            codeUrl="https://github.com/lizzie102938/Skill_Up_Project"
           />
           <div className="content-div group container mx-auto flex items-center justify-center rounded-md shadow-lg shadow-[#0a192f]">
             <iframe
               width="350"
               height="200"
               src="https://www.youtube.com/embed/2uIrUrGG89c?start=1104"
-              title="YouTube video player"
+              title="2022 YouTube video player"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
             ></iframe>
           </div>
           <ProjectCard
+            image={skillUp}
+            title="SKILL-UP 2022"
+            subtitle="Le Wagon Final Project."
+            tech="Ruby on Rails, JS, CSS."
+            codeUrl="https://github.com/lizzie102938/Skill_Up_Project"
+          />
+
+          <ProjectCard
             image={bbb}
-            title="Berlin's Best Bar V.1 2022"
-            subtitle="React SPA"
-            tech="React, JS, CSS, Vercel"
+            title="Berlin's Best Bar V.1 2022."
+            subtitle="React SPA."
+            tech="React, JS, CSS, Vercel."
             demoUrl="https://berlin-best-bars-4j87.vercel.app"
             codeUrl="https://github.com/lizzie102938/Berlin-Best-Bars"
           />
           <ProjectCard
             image={eyeforDetail}
-            title="Eye For Detail 2022"
-            subtitle="React JS Application"
-            tech="React, JS, Tailwind"
+            title="Eye For Detail 2022."
+            subtitle="React JS Application."
+            tech="React, JS, Tailwind."
             codeUrl="https://github.com/lizzie102938/eyefordetail"
           />
           <ProjectCard
             image={rentABuddy}
-            title="Rent-A-Buddy 2022"
-            subtitle="Le Wagon First Rails project"
-            tech="Ruby on Rails, JS, CSS"
+            title="Rent-A-Buddy 2022."
+            subtitle="Le Wagon First Rails project."
+            tech="Ruby on Rails, JS, CSS."
             codeUrl="https://github.com/lizzie102938/rent_a_buddy-1"
           />
         </div>

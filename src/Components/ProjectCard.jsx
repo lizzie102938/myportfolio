@@ -8,13 +8,13 @@ const ProjectCard = ({ image, title, subtitle, tech, demoUrl, codeUrl }) => {
       className="content-div group container mx-auto flex items-center justify-center rounded-md bg-cover bg-center bg-no-repeat shadow-lg shadow-[#0a192f]"
     >
       <div className="p-4 text-center opacity-0 group-hover:opacity-100 sm:p-6">
-        <div className="text-lg font-bold tracking-wider text-white">
+        <div className="text-md font-bold tracking-wider text-white">
           {title}
         </div>
-        <div className="text-lg font-bold tracking-wider text-white">
+        <div className="text-md font-bold tracking-wider text-white">
           {subtitle}
         </div>
-        <div className="text-md font-bold tracking-wider text-white">
+        <div className="text-sm font-bold tracking-wider text-white">
           {tech}
         </div>
         <div className="text-center">
