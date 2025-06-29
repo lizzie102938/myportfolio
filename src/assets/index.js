@@ -19,7 +19,7 @@ import eyeforDetail from '../assets/eyefordetail.png';
 import skillUp from '../assets/SkillUp.png';
 import bbb from '../assets/BBBscreenshot.png';
 import bbb2 from '../assets/bbb2.png';
-import oneMoment from '../assets/oneMoment.png';
+import discoveryPanel from '../assets/discoveryPanel.png';
 
 export {
   html,
@@ -43,5 +43,5 @@ export {
   skillUp,
   bbb,
   bbb2,
-  oneMoment,
+  discoveryPanel,
 };

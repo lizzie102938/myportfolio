@@ -1,6 +1,6 @@
 import React from 'react';
 import {
-  oneMoment,
+  discoveryPanel,
   rentABuddy,
   eyeforDetail,
   skillUp,
@@ -27,16 +27,16 @@ const Work = () => {
 
         <div className="grid gap-4 sm:grid-cols-2 md:grid-cols-3">
           <ProjectCard
-            image={oneMoment}
-            title="Just A Moment 2025"
-            subtitle="Interactive map using Unsplash API"
+            image={discoveryPanel}
+            title="The Discovery Panel 2025"
+            subtitle="Interactive map using multiple APIs"
             tech="Next.js, Typescript, CSS modules, Mantine UI, Unsplash API, Vercel"
-            codeUrl="https://github.com/lizzie102938/just-a-moment"
+            codeUrl="https://github.com/lizzie102938/the-discovery-panel"
           />
           <ProjectCard
             image={bbb2}
             title="Berlin's Best Bars V.2 2025"
-            subtitle="SPA with Node.JS Backend"
+            subtitle="Simple SPA with Node.JS Backend"
             tech="React, Typescript, CSS, Node.JS, Vercel"
             demoUrl="https://berlin-best-bars-v2.vercel.app/"
             codeUrl="https://github.com/lizzie102938/Berlin-Best-Bars-v2"
