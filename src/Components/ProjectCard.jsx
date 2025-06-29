@@ -7,18 +7,21 @@ const ProjectCard = ({ image, title, subtitle, tech, demoUrl, codeUrl }) => {
       style={{ backgroundImage: `url(${image})` }}
       className="content-div group container mx-auto flex items-center justify-center rounded-md bg-cover bg-center bg-no-repeat shadow-lg shadow-[#0a192f]"
     >
-      <div className="p-4 text-center opacity-0 group-hover:opacity-100 sm:p-6">
-        <div className="text-md font-bold tracking-wider text-white">
-          {title}
+      <a href={codeUrl} target="_blank" rel="noopener noreferrer">
+        <div className="p-4 text-center opacity-0 group-hover:opacity-100 sm:p-6">
+          <div className="text-md font-bold tracking-wider text-white">
+            {title}
+          </div>
+          <div className="text-md font-bold tracking-wider text-white">
+            {subtitle}
+          </div>
+          <div className="text-sm font-bold tracking-wider text-white">
+            {tech}
+          </div>
         </div>
-        <div className="text-md font-bold tracking-wider text-white">
-          {subtitle}
-        </div>
-        <div className="text-sm font-bold tracking-wider text-white">
-          {tech}
-        </div>
-        <div className="text-center">
-          {demoUrl && (
+      </a>
+      {/* <div className="text-center"> */}
+      {/* {demoUrl && (
             <a href={demoUrl} target="_blank" rel="noopener noreferrer">
               <button className="m-2 rounded-lg bg-white px-4 py-3 text-center text-lg font-bold text-gray-700">
                 Demo
@@ -27,14 +30,14 @@ const ProjectCard = ({ image, title, subtitle, tech, demoUrl, codeUrl }) => {
           )}
           {codeUrl && (
             <a href={codeUrl} target="_blank" rel="noopener noreferrer">
-              <button className="m-2 rounded-lg bg-white px-4 py-3 text-center text-lg font-bold text-gray-700">
+              <button className="text-md m-2 rounded-lg bg-white px-4 py-3 text-center font-bold text-gray-700">
                 Code
               </button>
             </a>
-          )}
-        </div>
-      </div>
+          )} */}
+      {/* </div> */}
     </div>
+    // </div>
   );
 };
 

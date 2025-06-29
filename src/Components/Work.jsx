@@ -38,7 +38,7 @@ const Work = () => {
             title="Berlin's Best Bars V.2 2025"
             subtitle="Revamp of old SPA project."
             tech="React, Typescript, CSS, Node.JS, Vercel, Foursquare API."
-            demoUrl="https://berlin-best-bars-v2.vercel.app/"
+            // demoUrl="https://berlin-best-bars-v2.vercel.app/"
             codeUrl="https://github.com/lizzie102938/Berlin-Best-Bars-v2"
           />
           <div className="content-div group container mx-auto flex items-center justify-center rounded-md shadow-lg shadow-[#0a192f]">
@@ -61,10 +61,10 @@ const Work = () => {
 
           <ProjectCard
             image={bbb}
-            title="Berlin's Best Bar V.1 2022."
+            title="Berlin's Best Bar V.1 2022"
             subtitle="React SPA."
             tech="React, JS, CSS, Vercel."
-            demoUrl="https://berlin-best-bars-4j87.vercel.app"
+            // demoUrl="https://berlin-best-bars-4j87.vercel.app"
             codeUrl="https://github.com/lizzie102938/Berlin-Best-Bars"
           />
           <ProjectCard
