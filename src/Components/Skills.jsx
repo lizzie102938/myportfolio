@@ -4,7 +4,6 @@ import {
   css,
   es6,
   github,
-  ruby,
   ror,
   sass,
   tailwind,

@@ -19,6 +19,7 @@ import skillUp from '../assets/SkillUp.png';
 import bbb from '../assets/BBBscreenshot.png';
 import bbb2 from '../assets/bbb2.png';
 import discoveryPanel from '../assets/discoveryPanel.png';
+import portfolio from '../assets/portfolio.png';
 
 export {
   html,
@@ -42,4 +43,5 @@ export {
   bbb,
   bbb2,
   discoveryPanel,
+  portfolio,
 };
