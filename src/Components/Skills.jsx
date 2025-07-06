@@ -36,7 +36,6 @@ const personalSkillsData = [
   { label: 'TAILWIND', src: tailwind },
   { label: 'NEXT.JS', src: nextjs },
   { label: 'VERCEL', src: vercel },
-  { label: 'RUBY', src: ruby },
   { label: 'RUBY ON RAILS', src: ror },
 ];
 
