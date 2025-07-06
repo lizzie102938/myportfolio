@@ -29,8 +29,9 @@ const Work = () => {
           <ProjectCard
             image={discoveryPanel}
             title="The Discovery Panel 2025"
-            subtitle="Full-Stack project. Interactive map using multiple APIs."
+            subtitle="Full-Stack project."
             tech="Next.js, PostgreSQL, Typescript, CSS modules, Mantine UI, Unsplash API, Vercel."
+            demoUrl={'https://the-discovery-panel.online'}
             codeUrl="https://github.com/lizzie102938/the-discovery-panel"
           />
           <ProjectCard

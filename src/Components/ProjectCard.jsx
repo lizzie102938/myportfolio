@@ -7,37 +7,35 @@ const ProjectCard = ({ image, title, subtitle, tech, demoUrl, codeUrl }) => {
       style={{ backgroundImage: `url(${image})` }}
       className="content-div group container mx-auto flex items-center justify-center rounded-md bg-cover bg-center bg-no-repeat shadow-lg shadow-[#0a192f]"
     >
-      <a href={codeUrl} target="_blank" rel="noopener noreferrer">
-        <div className="p-4 text-center opacity-0 group-hover:opacity-100 sm:p-6">
-          <div className="text-md font-bold tracking-wider text-white">
-            {title}
-          </div>
-          <div className="text-md font-bold tracking-wider text-white">
-            {subtitle}
-          </div>
-          <div className="text-sm font-bold tracking-wider text-white">
-            {tech}
-          </div>
+      <div className="p-4 text-center opacity-0 group-hover:opacity-100 sm:p-6">
+        <div className="text-md mb-2 font-bold tracking-wider text-white">
+          {title}
         </div>
-      </a>
-      {/* <div className="text-center"> */}
-      {/* {demoUrl && (
+        <div className="text-md mb-2 font-bold tracking-wider text-white">
+          {subtitle}
+        </div>
+        <div className="mb-4 text-sm font-bold tracking-wider text-white">
+          {tech}
+        </div>
+
+        <div className="flex justify-center gap-4">
+          {demoUrl && (
             <a href={demoUrl} target="_blank" rel="noopener noreferrer">
-              <button className="m-2 rounded-lg bg-white px-4 py-3 text-center text-lg font-bold text-gray-700">
+              <button className="rounded-lg bg-white px-4 py-2 text-sm font-bold text-gray-700 transition duration-300 hover:bg-pink-600 hover:text-white">
                 Demo
               </button>
             </a>
           )}
           {codeUrl && (
             <a href={codeUrl} target="_blank" rel="noopener noreferrer">
-              <button className="text-md m-2 rounded-lg bg-white px-4 py-3 text-center font-bold text-gray-700">
+              <button className="rounded-lg bg-white px-4 py-2 text-sm font-bold text-gray-700 transition duration-300 hover:bg-pink-600 hover:text-white">
                 Code
               </button>
             </a>
-          )} */}
-      {/* </div> */}
+          )}
+        </div>
+      </div>
     </div>
-    // </div>
   );
 };
 
