@@ -7,6 +7,7 @@ import {
   bbb,
   bbb2,
   portfolio,
+  diyai,
 } from '../assets';
 import ProjectCard from './ProjectCard';
 
@@ -28,10 +29,17 @@ const Work = () => {
 
         <div className="grid gap-4 sm:grid-cols-2 md:grid-cols-3">
           <ProjectCard
+            image={diyai}
+            title="DIY-AI"
+            subtitle="Full-Stack project."
+            tech="Node.js, React.js, Typescript, CSS modules, Mantine UI, Unsplash API, Vercel."
+            codeUrl={'https://github.com/lizzie102938/diy-ai'}
+          />
+          <ProjectCard
             image={discoveryPanel}
             title="The Discovery Panel"
             subtitle="Full-Stack project."
-            tech="Next.js, PostgreSQL, Typescript, CSS modules, Mantine UI, Unsplash API, Vercel."
+            tech="Next.js, PostgreSQL, Typescript, SCSS modules, Mantine UI, Vercel."
             demoUrl={'https://the-discovery-panel.online'}
             codeUrl="https://github.com/lizzie102938/the-discovery-panel"
           />

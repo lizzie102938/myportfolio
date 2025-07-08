@@ -20,6 +20,7 @@ import bbb from '../assets/BBBscreenshot.png';
 import bbb2 from '../assets/bbb2.png';
 import discoveryPanel from '../assets/discoveryPanel.png';
 import portfolio from '../assets/portfolio.png';
+import diyai from '../assets/diyai.png';
 
 export {
   html,
@@ -44,4 +45,5 @@ export {
   bbb2,
   discoveryPanel,
   portfolio,
+  diyai,
 };
