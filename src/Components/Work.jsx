@@ -30,7 +30,7 @@ const Work = () => {
         <div className="grid gap-4 sm:grid-cols-2 md:grid-cols-3">
           <ProjectCard
             image={diyai}
-            title="DIY-AI"
+            title="DIY-AI (In Progress)"
             subtitle="Full-Stack project."
             tech="Node.js, React.js, Typescript, Express, SCSS modules, Vercel, multiple APIs."
             codeUrl={'https://github.com/lizzie102938/diy-ai'}
@@ -58,6 +58,14 @@ const Work = () => {
             tech="React, JS, Tailwind, Vercel."
             codeUrl={'https://github.com/lizzie102938/myportfolio'}
           />
+          <ProjectCard
+            image={eyeforDetail}
+            title="Eye For Detail (Unfinished)"
+            subtitle="React JS Application."
+            tech="React, JS, Tailwind."
+            codeUrl="https://github.com/lizzie102938/eyefordetail"
+            demoUrl={'https://eyefordetail.vercel.app/'}
+          />
           <div className="content-div group container mx-auto flex items-center justify-center rounded-md shadow-lg shadow-[#0a192f]">
             <iframe
               width="350"
@@ -84,13 +92,7 @@ const Work = () => {
             // demoUrl="https://berlin-best-bars-4j87.vercel.app"
             codeUrl="https://github.com/lizzie102938/Berlin-Best-Bars"
           />
-          <ProjectCard
-            image={eyeforDetail}
-            title="Eye For Detail"
-            subtitle="React JS Application."
-            tech="React, JS, Tailwind."
-            codeUrl="https://github.com/lizzie102938/eyefordetail"
-          />
+
           <ProjectCard
             image={rentABuddy}
             title="Rent-A-Buddy"
