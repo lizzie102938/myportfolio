@@ -39,7 +39,7 @@ const Work = () => {
             image={discoveryPanel}
             title="The Discovery Panel"
             subtitle="Full-Stack project."
-            tech="Next.js, PostgreSQL, Typescript, SCSS modules, Mantine UI, Vercel."
+            tech="Next.js, PostgreSQL, Typescript, SCSS modules, Mantine UI, Vercel, multiple APIs."
             demoUrl={'https://the-discovery-panel.online'}
             codeUrl="https://github.com/lizzie102938/the-discovery-panel"
           />
