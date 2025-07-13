@@ -51,13 +51,13 @@ const Work = () => {
             // demoUrl="https://berlin-best-bars-v2.vercel.app/"
             codeUrl="https://github.com/lizzie102938/Berlin-Best-Bars-v2"
           />
-          <ProjectCard
+          {/* <ProjectCard
             image={portfolio}
             title="Portfolio"
             subtitle="React SPA"
             tech="React, JS, Tailwind, Vercel."
             codeUrl={'https://github.com/lizzie102938/myportfolio'}
-          />
+          /> */}
           <ProjectCard
             image={eyeforDetail}
             title="Eye For Detail (paused)"
