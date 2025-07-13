@@ -27,7 +27,7 @@ const Home = () => {
             duration={500}
             className="w-50 group my-2 inline-flex cursor-pointer items-center border-2 px-6 py-3 text-white hover:border-pink-600 hover:bg-pink-600"
           >
-            View all technologies
+            View technologies
             <span className="duration-300 group-hover:rotate-90">
               <HiArrowNarrowRight className="ml-3" />
             </span>
@@ -58,7 +58,7 @@ const Home = () => {
             duration={500}
             className="group my-2 inline-flex cursor-pointer items-center border-2 px-6 py-3 text-white hover:border-pink-600 hover:bg-pink-600"
           >
-            View all work
+            View work
             <span className="duration-300 group-hover:rotate-90">
               <HiArrowNarrowRight className="ml-3" />
             </span>
