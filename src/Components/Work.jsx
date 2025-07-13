@@ -60,7 +60,7 @@ const Work = () => {
           />
           <ProjectCard
             image={eyeforDetail}
-            title="Eye For Detail (Unfinished)"
+            title="Eye For Detail (paused)"
             subtitle="React JS Application."
             tech="React, JS, Tailwind."
             codeUrl="https://github.com/lizzie102938/eyefordetail"
