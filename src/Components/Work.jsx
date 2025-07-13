@@ -32,7 +32,7 @@ const Work = () => {
             image={diyai}
             title="DIY-AI"
             subtitle="Full-Stack project."
-            tech="Node.js, React.js, Typescript, Express, CSS modules, Vercel."
+            tech="Node.js, React.js, Typescript, Express, SCSS modules, Vercel, multiple APIs."
             codeUrl={'https://github.com/lizzie102938/diy-ai'}
           />
           <ProjectCard
